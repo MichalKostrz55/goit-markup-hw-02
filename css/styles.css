@@ -20,7 +20,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1, 166666666666667;
+  line-height: 1.166666666666667;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -35,7 +35,7 @@ body {
   color: var(--color-dark);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -47,4 +47,80 @@ body {
   list-style: none;
 }
 .address-list-item {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.address-list-item:hover,
+.address-list-item:focus {
+  color: var(--color-pressedstate);
+}
+.hero-background {
+  background-color: var(--color-dark);
+}
+.hero-title {
+  color: var(--color-whitebackground);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071428571428571;
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  color: var(--color-whitebackground);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-primarybrand);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-pressedstate);
+}
+.article-list {
+  list-style: none;
+}
+.article-title {
+  color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.article-description {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.what-are-we-doing-header {
+  color: var(--color-dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111111111111111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.what-are-we-doing-images {
+  list-style: none;
+}
+.our-team-header {
+  color: var(--color-dark);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111111111111111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
