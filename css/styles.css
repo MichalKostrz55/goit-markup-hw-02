@@ -15,7 +15,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.logo-studio {
+.header-background {
+  background-color: var(--color-whitebackground);
+}
+.logo-studio-header {
   color: var(--color-dark);
   font-family: Raleway;
   font-size: 18px;
@@ -25,7 +28,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-web {
+.logo-web-header {
   color: var(--color-primarybrand);
 }
 .menu-list {
@@ -58,6 +61,7 @@ body {
 .address-list-item:focus {
   color: var(--color-pressedstate);
 }
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
 .hero-background {
   background-color: var(--color-dark);
 }
@@ -86,6 +90,10 @@ body {
 .hero-button:focus {
   background-color: var(--color-pressedstate);
 }
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+.article-background {
+  background-color: var(--color-whitebackground);
+}
 .article-list {
   list-style: none;
 }
@@ -103,6 +111,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+.waht-are-we-doing-background {
+  background-color: var(--color-whitebackground);
+}
 .what-are-we-doing-header {
   color: var(--color-dark);
   text-align: center;
@@ -112,8 +124,15 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.what-are-we-doing-images {
+.waht-are-we-doing-list {
   list-style: none;
+}
+.what-are-we-doing-images {
+  border: 1px solid var(--color-accent);
+}
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+.our-team-background {
+  background-color: var(--color-light);
 }
 .our-team-header {
   color: var(--color-dark);
@@ -123,4 +142,27 @@ body {
   line-height: 1.111111111111111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.our-team-list {
+  list-style: none;
+}
+.our-team-images {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.our-team-name {
+  color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.our-team-description {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
