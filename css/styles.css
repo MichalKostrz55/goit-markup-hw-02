@@ -1,0 +1,50 @@
+:root {
+  --color-primarybrand: #4d5ae5;
+  --color-pressedstate: #404bbf;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: #434455;
+  --color-subtletext: #8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modaloverlay: #2e2f42;
+  --color-herobackground: #2e2f42;
+  --color-whitebackground: #ffffff;
+  --color-modalbackground: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo-studio {
+  color: var(--color-dark);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1, 166666666666667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--color-primarybrand);
+}
+.menu-list {
+  list-style: none;
+}
+.menu-item {
+  color: var(--color-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--color-pressedstate);
+}
+.address-list {
+  list-style: none;
+}
+.address-list-item {
+}
